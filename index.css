@@ -83,7 +83,7 @@ nav {
 }
 
 .logo__img--wrapper {
-  width: 300px;
+  width: 200px;
 }
 
 .logo__img {
@@ -97,7 +97,7 @@ nav {
 }
 
 .nav__list {
-  margin-left: 48px;
+  margin-left: 32px;
 }
 
 .nav__link {
@@ -162,14 +162,13 @@ header {
   border-radius: 50px;
   max-width: 550px;
   margin: 100px auto;
-  padding: 14px 28px;
+  padding: 14px;
 }
 
 .landing__input {
   background-color: transparent;
   border: none;
   width: 100%;
-  padding: 14px 8px;
   font-size: 20px;
   outline: none;
   color: #14b8da;
@@ -187,4 +186,44 @@ header {
 
 .landing__img {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .landing__title {
+    font-size: 50px;
+  }
+  .landing__sub-title {
+    font-size: 24px;
+  }
+
+  .landing__form {
+    padding: 8px;
+  }
+
+  .landing__input {
+    font-size: 18px;
+  }
+
+  .landing__img--wrapper {
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  
+
+  .landing__title {
+    font-size: 30px;
+  }
+  .landing__sub-title {
+    font-size: 18px;
+  }
+
+  .landing__form{
+    max-width: 400px;
+  }
+  .landing__img--wrapper {
+    width: 500px;
+  }
 }
