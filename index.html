@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="nav__row">
+          <figure class="logo__img--wrapper">
+            <img
+              src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+              alt=""
+              class="logo__img"
+            />
+          </figure>
+          <ul class="nav__links">
+            <li class="nav__list link__hover-effect">
+              <a href="#" class="nav__link">Home</a>
+            </li>
+            <li class="nav__list link__hover-effect">
+              <a href="#" class="nav__link">Browse</a>
+            </li>
+            <li class="nav__list">
+              <a href="#" class="btn">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <header>
+        <div class="container">
+          <div class="row">
+            <h1 class="landing__title">
+              Croatia's most awarded online movies platform
+            </h1>
+            <h2 class="landing__sub-title">
+              WATCH YOUR FAVOURITE MOVIES WITH
+              <span class="color--blue100">TMDB</span>
+            </h2>
+            <form onsubmit="hello(event)" class="landing__form">
+              <input
+                type="text"
+                class="landing__input"
+                placeholder="Search your favourite movie titles"
+                required
+              />
+              <button type="submit" class="btn">Search</button>
+            </form>
+            <figure class="landing__img--wrapper">
+              <img src="./assets/landing.svg" alt="" class="landing__img" />
+            </figure>
+          </div>
+        </div>
+      </header>
+    </section>
+  </body>
+</html>
